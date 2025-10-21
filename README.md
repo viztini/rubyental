@@ -1,6 +1,6 @@
-# rubymental
+# rubyental
 
-rubymental is a simple command-line interface (CLI) application built with Ruby, designed to help you manage your mental well-being through a combination of todo lists and journaling.
+rubyental is a simple command-line interface (CLI) application built with Ruby, designed to help you manage your mental well-being through a combination of todo lists and journaling.
 
 ## Features
 
@@ -26,7 +26,7 @@ You need Ruby installed on your system. You can download it from [ruby-lang.org]
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/YOUR_USERNAME/rubymental.git
+    git clone https://github.com/viztini/rubyental.git
     cd rubymental
     ```
 2.  **Make the script executable:**
