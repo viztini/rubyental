@@ -54,7 +54,7 @@ Follow the on-screen menu to manage your todo list and journal entries.
 
 ```
 ================================================================================
-                                 rubyental - Your Mental Well-being Companion
+                rubyental - Your Mental Well-being Companion
 ================================================================================
 --------------------------------------------------------------------------------
                                    Main Menu
