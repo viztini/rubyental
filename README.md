@@ -27,7 +27,7 @@ You need Ruby installed on your system. You can download it from [ruby-lang.org]
 1.  **Clone the repository:**
     ```bash
     git clone https://github.com/viztini/rubyental.git
-    cd rubymental
+    cd rubyental
     ```
 2.  **Make the script executable:**
     ```bash
