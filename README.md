@@ -5,6 +5,7 @@ rubyental is a visually enhanced command-line interface (CLI) application built 
 ## Features
 
 *   **Visually Engaging Interface:** Full-screen, clear, and structured output with a red and white color scheme.
+*   **Enhanced Input:** Utilizes the `readline` library for improved single-line input (e.g., arrow key navigation, history) in prompts.
 *   **Todo List Management:**
     *   Add new tasks.
     *   View your current tasks.
@@ -12,8 +13,9 @@ rubyental is a visually enhanced command-line interface (CLI) application built 
     *   Delete individual tasks.
     *   Clear all tasks.
 *   **Journaling:**
-    *   Add dated journal entries.
+    *   Add dated journal entries with titles for easy sorting.
     *   View all your journal entries.
+    *   Delete individual journal entries.
     *   Clear all journal entries (with confirmation).
 *   **Persistence:** All your todo items and journal entries are saved automatically to local files (`todo.txt` and `journal.txt`) and loaded when you restart the application.
 
@@ -27,7 +29,7 @@ You need Ruby installed on your system. You can download it from [ruby-lang.org]
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/viztini/rubyental.git
+    git clone https://github.com/YOUR_USERNAME/rubyental.git
     cd rubyental
     ```
 2.  **Run the installation script:**
@@ -46,11 +48,13 @@ rubyental
 
 Follow the on-screen menu to manage your todo list and journal entries.
 
+**Note on Text Editing:** While `readline` enhances single-line input (allowing arrow key navigation and history for prompts), it does not provide full-screen, multi-line text editing capabilities (like navigating up/down within a multi-line entry). For such advanced editing, a dedicated text editor or a more complex terminal UI library would be required.
+
 ## Example Output
 
 ```
 ================================================================================
-                  rubyental - Your Mental Well-being Companion
+                                 rubyental - Your Mental Well-being Companion
 ================================================================================
 --------------------------------------------------------------------------------
                                    Main Menu
@@ -62,17 +66,17 @@ Follow the on-screen menu to manage your todo list and journal entries.
 5. Clear All Tasks
 6. View Journal
 7. Add Journal Entry
-8. Clear All Journal Entries
-9. Exit
+8. Delete Journal Entry
+9. Clear All Journal Entries
+10. Exit
 --------------------------------------------------------------------------------
 Choose an option:
 ```
 
 ## File Structure
 
-*   `rubyental_app.rb`: The main Ruby application script with visual enhancements.
+*   `rubyental.rb`: The main Ruby application script with visual enhancements and `readline` integration.
 *   `install.sh`: The installation script.
-*   `todo.rb`: (Older version of the application, kept for reference if needed).
 *   `todo.txt`: Stores your todo list items.
 *   `journal.txt`: Stores your journal entries.
 
