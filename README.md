@@ -29,7 +29,7 @@ You need Ruby installed on your system. You can download it from [ruby-lang.org]
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/YOUR_USERNAME/rubyental.git
+    git clone https://github.com/viztini/rubyental.git
     cd rubyental
     ```
 2.  **Run the installation script:**
