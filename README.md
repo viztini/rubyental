@@ -32,7 +32,11 @@ You need Ruby installed on your system. You can download it from [ruby-lang.org]
     git clone https://github.com/viztini/rubyental.git
     cd rubyental
     ```
-2.  **Run the installation script:**
+2.  **Make the installation script executable:**
+    ```bash
+    chmod +x install.sh
+    ```
+3.  **Run the installation script:**
     ```bash
     ./install.sh
     ```
