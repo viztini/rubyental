@@ -46,7 +46,7 @@ log_success "Ruby found."
 
 # 2. Define installation path
 INSTALL_DIR="$HOME/.local/bin"
-APP_SOURCE="$(dirname "$0")/rubyental_app.rb"
+APP_SOURCE="$(dirname "$0")/rubyental.rb"
 APP_NAME="rubyental"
 INSTALL_PATH="$INSTALL_DIR/$APP_NAME"
 
@@ -65,10 +65,10 @@ else
 fi
 
 # 4. Copy the application script
-log_info "Copying rubyental_app.rb to $INSTALL_PATH..."
+log_info "Copying rubyental.rb to $INSTALL_PATH..."
 cp "$APP_SOURCE" "$INSTALL_PATH"
 if [ $? -ne 0 ]; then
-    log_error "Failed to copy rubyental_app.rb. Aborting."
+    log_error "Failed to copy rubyental.rb. Aborting."
     exit 1
 fi
 log_success "Application copied."
