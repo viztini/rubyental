@@ -1,6 +1,6 @@
 # rubyental
 
-rubyental is a visually enhanced command-line interface (CLI) application built with Ruby, designed to help you manage your mental well-being through a combination of todo lists and journaling. It features a striking red and white color scheme, utilizes the full terminal width, and provides a GUI-like experience directly in your terminal.
+rubyental is a command-line interface (CLI) application built with Ruby, designed to help you manage your mental well-being through a combination of todo lists and journaling. It features a striking red and white color scheme, utilizes the full terminal width, and provides a GUI-like experience directly in your terminal.
 
 ## Features
 
